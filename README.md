@@ -6,7 +6,8 @@ It is based on:
 * Official [amazon/aws-cli](https://hub.docker.com/r/amazon/aws-cli) image
 * Added [Git](https://git-scm.com/) client
 
-Docker image is built and hosted by [Docker Hub](https://hub.docker.com/r/skolobov/pipeline-aws-cli)
+Docker image is built with [GitHub Actions](.github/workflows/publish.yml) 
+and hosted by [Docker Hub](https://hub.docker.com/r/skolobov/pipeline-aws-cli)
 
 ```
 docker pull skolobov/pipeline-aws-cli:latest
